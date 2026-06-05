@@ -190,6 +190,133 @@
     "_last_validated_at": "2026-05-24T05:58:21.398895"
   },
   {
+    "bookSourceUrl": "http://www.xiaoshuo588.com",
+    "bookSourceName": "小说屋",
+    "bookSourceGroup": "备用",
+    "bookSourceType": 0,
+    "bookUrlPattern": "http://www.xiaoshuo588.com/\\d+_\\d+",
+    "customOrder": 21179,
+    "enabled": true,
+    "enabledExplore": true,
+    "enabledCookieJar": false,
+    "loginUrl": "{\n  \"url\": \"null\"\n}",
+    "bookSourceComment": "",
+    "lastUpdateTime": 1632229301809,
+    "respondTime": 1815,
+    "weight": 0,
+    "ruleExplore": {},
+    "searchUrl": "http://www.xiaoshuo588.com/s123.php?ie=gbk&q={{key}}",
+    "ruleSearch": {
+      "bookList": "class.bookbox@class.p10",
+      "name": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+      "author": "class.author@text##作者：|\\*",
+      "intro": "class.bookinfo@p@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text##百度搜索.*",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.bookimg@img@src"
+    },
+    "ruleBookInfo": {
+      "init": "id.maininfo",
+      "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+      "author": "id.info@tag.p.0@text##作 者：|\\*",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "id.info@tag.p.1@text&&\nid.info@tag.p.3@text##最后更新：|状 态：",
+      "lastChapter": "id.info@tag.p.4@tag.a@text##百度搜索.*",
+      "coverUrl": "id.fmimg@img@src"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##http.*html|天才一秒记住.*com"
+    },
+    "searchRule": {
+      "bookList": "class.bookbox@class.p10",
+      "name": "class.bookname@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+      "author": "class.author@text##作者：|\\*",
+      "intro": "class.bookinfo@p@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text##百度搜索.*",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.bookimg@img@src"
+    },
+    "tag": "🎉 小说屋①",
+    "tocRule": {
+      "chapterList": "class.listmain@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "contentRule": {
+      "content": "id.content@html##http.*html|天才一秒记住.*com"
+    },
+    "exploreRule": {},
+    "bookInfoRule": {
+      "init": "id.maininfo",
+      "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+      "author": "id.info@tag.p.0@text##作 者：|\\*",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "id.info@tag.p.1@text&&\nid.info@tag.p.3@text##最后更新：|状 态：",
+      "lastChapter": "id.info@tag.p.4@tag.a@text##百度搜索.*",
+      "coverUrl": "id.fmimg@img@src"
+    },
+    "loginJs": "{\n  \"url\": \"null\"\n}",
+    "key": "http://www.xiaoshuo588.com",
+    "_validation_status": "valid",
+    "_last_validated_at": "2026-05-24T05:58:21.413878"
+  },
+  {
+    "bookSourceComment": "/*\n\t24.7.2明月照大江修复\n*/",
+    "bookSourceGroup": "备用",
+    "bookSourceName": "图书迷子",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tushumi.cc",
+    "bookUrlPattern": "https://www.tushumi.org/info-\\d+.html",
+    "concurrentRate": "500",
+    "customButton": false,
+    "customOrder": 136,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "eventListener": false,
+    "exploreUrl": "[\n  {\n    \"title\":\"玄幻魔法\",\n    \"url\":\"/leibie1_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"武侠修真\",\n    \"url\":\"/leibie2_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"都市言情\",\n    \"url\":\"/leibie3_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"历史军事\",\n    \"url\":\"/leibie4_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"侦探推理\",\n    \"url\":\"/leibie5_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"网游动漫\",\n    \"url\":\"/leibie6_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"科幻小说\",\n    \"url\":\"/leibie7_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"恐怖灵异\",\n    \"url\":\"/leibie8_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"散文诗词\",\n    \"url\":\"/leibie9_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  },\n  {\n    \"title\":\"其他类型\",\n    \"url\":\"/leibie10_{{page}}.html\",\n    \"style\":{\n      \"layout_flexGrow\":1,\n      \"layout_flexBasisPercent\":0.4\n    }\n  }\n]",
+    "lastUpdateTime": 1766340218068,
+    "respondTime": 14404,
+    "ruleBookInfo": {
+      "author": "#info > p:nth-child(2) > a@text",
+      "coverUrl": "#fmimg > img@src",
+      "intro": "@get:{intro}\n##^##　　",
+      "kind": "#info > p:nth-child(3)@text&&\n#info > p:nth-child(5)@text\n##类 别：|{{book.name}}|\\(|\\)|更新时间：|..:..",
+      "lastChapter": "#info > p:nth-child(6) > a@text",
+      "name": "#info > a > h1@text##\\(([^)]+?)\\)##（$1）"
+    },
+    "ruleContent": {
+      "content": "#content@html",
+      "replaceRegex": "##\\n?.*投推荐票.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "div.info > div.title > span@text##作者：",
+      "bookList": "#alistbox",
+      "bookUrl": "div.info > div.title > h2 > a@href",
+      "coverUrl": "div.pic > a > img@src",
+      "intro": "@put:{intro:\"div.info > div.intro@text\"}@get:{intro}",
+      "lastChapter": "div.info > div.sys > li > a@text",
+      "name": "div.info > div.title > h2 > a@text\n##\\(([^)]+?)\\)##（$1）"
+    },
+    "ruleToc": {
+      "chapterList": "#list > dl > dt:nth-of-type(2) ~ dd",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "{{String(java.connect(`${java.connect(source.getKey()).raw().request().url()}search.html,{\n  \"body\": \"searchkey=${key}&searchtype=all&Submit=\",\n  \"charset\": \"UTF-8\",\n  \"method\": \"POST\"\n}`).raw().request().url()).replace(/1(?=\\.html)/, `${page}`)}}",
+    "weight": 0,
+    "_validation_status": "valid",
+    "_last_validated_at": "2026-05-24T05:58:21.417305"
+  },
+  {
     "bookSourceGroup": "标准",
     "bookSourceName": "心轻小说",
     "bookSourceType": 0,
